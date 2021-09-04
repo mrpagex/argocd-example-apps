@@ -80,7 +80,7 @@ autoscaling:
 
 # Health check on creation pod
 readinessProbe:
-  path: /fail
+  path: /
   initialDelaySeconds: 20
   periodSeconds: 10
   timeoutSeconds: 5
@@ -89,7 +89,7 @@ readinessProbe:
 
 # Healh check continuos
 livenessProbe:
-  path: /fail
+  path: /
   initialDelaySeconds: 20
   periodSeconds: 10
   timeoutSeconds: 5
