@@ -1,0 +1,4 @@
+*.vscode
+*.backup
+*.tgz
+.idea
